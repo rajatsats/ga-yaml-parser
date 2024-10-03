@@ -1,4 +1,4 @@
-name: 'Forked YAML Parser'
+name: 'YAML Parser - Node20'
 description: 'Parses YAML file and returns as flattened object in output'
 inputs:
   file:
