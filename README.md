@@ -35,7 +35,7 @@ Dynamically built depending on your YAML file content.
 ## Usage
 
 ```yaml
-uses: the-coding-turtle/ga-yaml-parser@v0.1
+uses: rajatsats/ga-yaml-parser@v0.1
 with:
   directory: "config.yaml"
 ```
