@@ -1,4 +1,4 @@
-name: 'YAML Parser'
+name: 'Forked YAML Parser'
 description: 'Parses YAML file and returns as flattened object in output'
 inputs:
   file:
@@ -24,5 +24,5 @@ outputs:
   result: # output will be available to future steps
     description: 'value of flattened key if specified.'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
